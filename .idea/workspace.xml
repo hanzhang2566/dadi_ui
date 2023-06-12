@@ -9,11 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a89375f-b2b1-441c-877b-3c33b6b20513" name="Changes" comment="feat: init repo">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="7a89375f-b2b1-441c-877b-3c33b6b20513" name="Changes" comment="feat: 完成路由跳转">
+      <change afterPath="$PROJECT_DIR$/lib/login/login.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/home/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/home/drawer.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +97,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hanzhang\Documents\Jeanut\pen_ui\images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hanzhang\Documents\Jeanut\pen_ui\lib" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -115,7 +118,7 @@
       <workItem from="1685271409869" duration="1106000" />
       <workItem from="1685330370852" duration="10388000" />
       <workItem from="1686042601254" duration="292000" />
-      <workItem from="1686548554746" duration="15464000" />
+      <workItem from="1686548554746" duration="18375000" />
     </task>
     <task id="LOCAL-00001" summary="feat: main.dart">
       <created>1685271747697</created>
@@ -138,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686042851956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 完成路由跳转">
+      <created>1686564135998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686564135998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: main.dart" />
     <MESSAGE value="feat: init repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init repo" />
+    <MESSAGE value="feat: 完成路由跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成路由跳转" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

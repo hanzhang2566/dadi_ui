@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pen_ui/login/login.dart';
 
 class PenApp extends StatelessWidget {
   const PenApp({super.key});
@@ -214,12 +215,8 @@ class _HomepageState extends State<PenHomepage> {
                       padding: const EdgeInsets.only(bottom: 5),
                       child: ElevatedButton.icon(
                         onPressed: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return Container(
-                              color: Colors.red,
-                            );
-                          }));
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => LoginPage()));
                         },
                         icon: const Icon(Icons.login),
                         label: const Text('立即登录'),
